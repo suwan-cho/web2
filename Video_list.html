@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Video list</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<style>
+		body {
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		/*menu*/
+		ul {
+			list-style-type: none;
+			margin: 100;
+			margin-left: 40px;
+			padding: 0;
+			overflow: hidden;
+			font-size: 32px;
+			color: #1c100b
+		}
+
+		ul :hover {
+			background-color: #B6B6B6;
+			transition-duration: 0.3s;
+		}
+
+		li {
+			float: left;
+			display: inline-block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a {
+			display: inline-block;
+			color: white;
+			text-align: center;
+			text-decoration: none;
+		}
+
+		p {
+			color: black;
+			text-align: center;
+			font-size: 30px;
+			margin: 70px;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		/* Style the header */
+		header {
+			background-color: #000000;
+			padding: 30px;
+			text-align: center;
+			font-size: 35px;
+			color: white;
+		}
+
+		/* Container for flexboxes */
+		section {
+			display: -webkit-flex;
+			display: flex;
+		}
+
+		/* Style the navigation menu */
+		nav {
+			-webkit-flex: 1;
+			-ms-flex: 1;
+			flex: 1;
+			background: #646464;
+			padding: 20px;
+		}
+
+		/* Style the list inside the menu */
+		nav ul {
+			list-style-type: none;
+		}
+
+		/* Style the content */
+		article {
+			-webkit-flex: 3;
+			-ms-flex: 3;
+			flex: 3;
+			background-color: #FFFFFF;
+			padding: 10px;
+		}
+
+		/* Style the footer */
+		footer {
+			background-color: #777;
+			padding: 10px;
+			text-align: center;
+			color: white;
+		}
+
+		/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+		@media (max-width: 600px) {
+			section {
+				-webkit-flex-direction: column;
+				flex-direction: column;
+			}
+		}
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<h2><img src="youtube2.png" alt="youtube logo" width="80" style="margin-right: 20px;">Videos List</h2>
+	</header>
+
+	<section>
+		<nav>
+			<ul>
+				<li><a href="pranav.html">Pranav</a></li><br><br>
+				<li><a href="suwan.html">Suwan</a></li><br><br>
+				<li><a href="joel.html">Joel</a></li><br><br>
+				<li><a href="anika.html">Anika</a></li><br><br>
+				<li><a href="hannah.html">Hannah</a></li><br><br>
+				<li><a href="james.html">James</a></li><br><br>
+				<li><a href="patrick.html">Patrick</a></li><br><br>
+				<li><a href="annelise.html">Annelise</a></li><br><br>
+				<li><a href="index.html">Someone</a></li><br><br>
+			</ul>
+		</nav>
+
+		<article>
+			<p>You can see names of students in Y11 ITM class.</p>
+			<p>Click and see their video and comment on them. What are you waiting for? Let's go!</p>
+      <iframe width="800px" height="500px" src="https://www.youtube.com/embed/tgbNymZ7vqY" style ="
+      margin-left: 14%" >
+      </iframe>
+		</article>
+	</section>
+	
+</body>
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://community-for-everyone.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</html>
